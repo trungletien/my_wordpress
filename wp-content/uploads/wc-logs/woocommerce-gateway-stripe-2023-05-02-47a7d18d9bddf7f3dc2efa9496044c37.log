@@ -1,0 +1,725 @@
+2023-05-02T12:34:46+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3IPpJllRa9wgE84fj1GUCN
+====End Log====
+
+
+2023-05-02T12:34:47+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+customers/cus_NowFJYk3cW8fUt request: Array
+(
+    [email] => hochoi87864@gmail.com
+    [description] => Name: Frances Brown, Username: trung
+    [name] => Frances Brown
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:34:47+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Info: Begin processing payment for order 16 for the amount of 5
+====End Log====
+
+
+2023-05-02T12:34:47+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 5
+    [currency] => vnd
+    [description] => Shop Genj - Order 16
+    [metadata] => Array
+        (
+            [customer_name] => Frances Brown
+            [customer_email] => hochoi87864@gmail.com
+            [order_id] => 16
+            [site_url] => https://letientrung.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1N3IPpJllRa9wgE84fj1GUCN
+    [customer] => cus_NowFJYk3cW8fUt
+    [shipping] => Array
+        (
+            [name] => Frances Brown
+            [address] => Array
+                (
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [city] => Avenue
+                    [country] => VN
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:34:48+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3IPpJllRa9wgE84fj1GUCN
+====End Log====
+
+
+2023-05-02T12:34:49+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+customers/cus_NowFJYk3cW8fUt request: Array
+(
+    [email] => hochoi87864@gmail.com
+    [description] => Name: Frances Brown, Username: trung
+    [name] => Frances Brown
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:34:49+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Info: Begin processing payment for order 16 for the amount of 5
+====End Log====
+
+
+2023-05-02T12:34:49+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 5
+    [currency] => vnd
+    [description] => Shop Genj - Order 16
+    [metadata] => Array
+        (
+            [customer_name] => Frances Brown
+            [customer_email] => hochoi87864@gmail.com
+            [order_id] => 16
+            [site_url] => https://letientrung.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1N3IPpJllRa9wgE84fj1GUCN
+    [customer] => cus_NowFJYk3cW8fUt
+    [shipping] => Array
+        (
+            [name] => Frances Brown
+            [address] => Array
+                (
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [city] => Avenue
+                    [country] => VN
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:34:51+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3IPpJllRa9wgE84fj1GUCN
+====End Log====
+
+
+2023-05-02T12:34:52+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Info: Begin processing payment for order 16 for the amount of 5
+====End Log====
+
+
+2023-05-02T12:34:52+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 5
+    [currency] => vnd
+    [description] => Shop Genj - Order 16
+    [metadata] => Array
+        (
+            [customer_name] => Frances Brown
+            [customer_email] => hochoi87864@gmail.com
+            [order_id] => 16
+            [site_url] => https://letientrung.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1N3IPpJllRa9wgE84fj1GUCN
+    [customer] => cus_NowFJYk3cW8fUt
+    [shipping] => Array
+        (
+            [name] => Frances Brown
+            [address] => Array
+                (
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [city] => Avenue
+                    [country] => VN
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:34:55+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3IPpJllRa9wgE84fj1GUCN
+====End Log====
+
+
+2023-05-02T12:34:55+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Info: Begin processing payment for order 16 for the amount of 5
+====End Log====
+
+
+2023-05-02T12:34:55+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 5
+    [currency] => vnd
+    [description] => Shop Genj - Order 16
+    [metadata] => Array
+        (
+            [customer_name] => Frances Brown
+            [customer_email] => hochoi87864@gmail.com
+            [order_id] => 16
+            [site_url] => https://letientrung.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1N3IPpJllRa9wgE84fj1GUCN
+    [customer] => cus_NowFJYk3cW8fUt
+    [shipping] => Array
+        (
+            [name] => Frances Brown
+            [address] => Array
+                (
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [city] => Avenue
+                    [country] => VN
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:35:00+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3IPpJllRa9wgE84fj1GUCN
+====End Log====
+
+
+2023-05-02T12:35:00+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Info: Begin processing payment for order 16 for the amount of 5
+====End Log====
+
+
+2023-05-02T12:35:00+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 5
+    [currency] => vnd
+    [description] => Shop Genj - Order 16
+    [metadata] => Array
+        (
+            [customer_name] => Frances Brown
+            [customer_email] => hochoi87864@gmail.com
+            [order_id] => 16
+            [site_url] => https://letientrung.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1N3IPpJllRa9wgE84fj1GUCN
+    [customer] => cus_NowFJYk3cW8fUt
+    [shipping] => Array
+        (
+            [name] => Frances Brown
+            [address] => Array
+                (
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [city] => Avenue
+                    [country] => VN
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:35:00+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3IPpJllRa9wgE84fj1GUCN
+====End Log====
+
+
+2023-05-02T12:35:01+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Info: Begin processing payment for order 16 for the amount of 5
+====End Log====
+
+
+2023-05-02T12:35:01+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 5
+    [currency] => vnd
+    [description] => Shop Genj - Order 16
+    [metadata] => Array
+        (
+            [customer_name] => Frances Brown
+            [customer_email] => hochoi87864@gmail.com
+            [order_id] => 16
+            [site_url] => https://letientrung.com
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1N3IPpJllRa9wgE84fj1GUCN
+    [customer] => cus_NowFJYk3cW8fUt
+    [shipping] => Array
+        (
+            [name] => Frances Brown
+            [address] => Array
+                (
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [city] => Avenue
+                    [country] => VN
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:35:01+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Error: stdClass Object
+(
+    [error] => stdClass Object
+        (
+            [code] => amount_too_small
+            [doc_url] => https://stripe.com/docs/error-codes/amount-too-small
+            [message] => Amount must convert to at least 50 cents. ₫5 converts to approximately $0.00.
+            [request_log_url] => https://dashboard.stripe.com/test/logs/req_VB5ZLOPmcqni7k?t=1683030901
+            [type] => invalid_request_error
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:37:35+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+customers/cus_NowFJYk3cW8fUt/payment_methods request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2023-05-02T12:38:19+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3ITGJllRa9wgE8jv0ndZI8
+====End Log====
+
+
+2023-05-02T12:38:19+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3ITGJllRa9wgE8jv0ndZI8/attach request: Array
+(
+    [customer] => cus_NowFJYk3cW8fUt
+)
+
+====End Log====
+
+
+2023-05-02T12:38:20+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+customers/cus_NowFJYk3cW8fUt request: Array
+(
+    [email] => hochoi87864@gmail.com
+    [description] => Name: Frances Brown, Username: trung
+    [name] => Frances Brown
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:38:20+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Info: Begin processing payment for order 17 for the amount of 100000
+====End Log====
+
+
+2023-05-02T12:38:20+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 100000
+    [currency] => vnd
+    [description] => Shop Genj - Order 17
+    [metadata] => Array
+        (
+            [customer_name] => Frances Brown
+            [customer_email] => hochoi87864@gmail.com
+            [order_id] => 17
+            [site_url] => https://letientrung.com
+            [save_payment_method] => true
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [payment_method] => pm_1N3ITGJllRa9wgE8jv0ndZI8
+    [setup_future_usage] => off_session
+    [customer] => cus_NowFJYk3cW8fUt
+    [shipping] => Array
+        (
+            [name] => Frances Brown
+            [address] => Array
+                (
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [city] => Avenue
+                    [country] => VN
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+        )
+
+)
+
+====End Log====
+
+
+2023-05-02T12:38:21+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Stripe PaymentIntent pi_3N3ITIJllRa9wgE8020Qvx8j initiated for order 17
+====End Log====
+
+
+2023-05-02T12:38:21+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_intents/pi_3N3ITIJllRa9wgE8020Qvx8j/confirm request: Array
+(
+    [payment_method] => pm_1N3ITGJllRa9wgE8jv0ndZI8
+)
+
+====End Log====
+
+
+2023-05-02T12:38:22+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Stripe PaymentIntent pi_3N3ITIJllRa9wgE8020Qvx8j succeeded for order 17
+====End Log====
+
+
+2023-05-02T12:38:22+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+payment_methods/pm_1N3ITGJllRa9wgE8jv0ndZI8
+====End Log====
+
+
+2023-05-02T12:38:23+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+customers/cus_NowFJYk3cW8fUt request: Array
+(
+    [default_source] => pm_1N3ITGJllRa9wgE8jv0ndZI8
+)
+
+====End Log====
+
+
+2023-05-02T12:38:23+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3N3ITIJllRa9wgE802dE12lP
+    [object] => charge
+    [amount] => 100000
+    [amount_captured] => 100000
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3N3ITIJllRa9wgE80nSTKIdL
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Avenue
+                    [country] => VN
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+            [email] => hochoi87864@gmail.com
+            [name] => Frances Brown
+            [phone] => 3257368777
+        )
+
+    [calculated_statement_descriptor] => Stripe
+    [captured] => 1
+    [created] => 1683031101
+    [currency] => vnd
+    [customer] => cus_NowFJYk3cW8fUt
+    [description] => Shop Genj - Order 17
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_email] => hochoi87864@gmail.com
+            [customer_name] => Frances Brown
+            [order_id] => 17
+            [save_payment_method] => true
+            [site_url] => https://letientrung.com
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 12
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3N3ITIJllRa9wgE8020Qvx8j
+    [payment_method] => pm_1N3ITGJllRa9wgE8jv0ndZI8
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 10
+                    [exp_year] => 2028
+                    [fingerprint] => jU2y60xFGLsKNai9
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [mandate] => 
+                    [network] => visa
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTXhVQ0tKbGxSYTl3Z0U4KL6IxKIGMga9z9p_AkI6LBao-6jdHL978Oe0Lxe_baWv133R2H240XspKUbR0rLWQvS3YgxEsgEWc8uC
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3N3ITIJllRa9wgE802dE12lP/refunds
+        )
+
+    [review] => 
+    [shipping] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Avenue
+                    [country] => VN
+                    [line1] => 4018 Anthony
+                    [line2] => 
+                    [postal_code] => 79536
+                    [state] => 
+                )
+
+            [carrier] => 
+            [name] => Frances Brown
+            [phone] => 
+            [tracking_number] => 
+        )
+
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2023-05-02T12:38:23+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+balance/history/txn_3N3ITIJllRa9wgE80nSTKIdL
+====End Log====
+
+
+2023-05-02T12:38:23+00:00 DEBUG 
+====Stripe Version: 7.3.0====
+====Start Log====
+Could not find order via charge ID: ch_3N3ITIJllRa9wgE802dE12lP
+====End Log====
+
+
