@@ -1,0 +1,126 @@
+.height-50vh {
+    height: 50vh;
+}
+
+.banner-homepage-carousel img {
+    filter: brightness(0.63);
+}
+
+.banner-homepage-carousel .flickity-page-dots {
+    bottom: 4vh;
+}
+
+.banner-homepage-carousel .flickity-page-dot {
+    background: white;
+    position: relative;
+    overflow: unset;
+    width: 8px;
+    height: 8px;
+    margin: 0 12px;
+}
+
+.banner-homepage-carousel .flickity-page-dot:focus {
+    box-shadow: none;
+}
+
+.banner-homepage-carousel .flickity-page-dot.is-selected {
+    background: white;
+}
+
+.banner-homepage-carousel .flickity-page-dot svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-homepage-carousel .flickity-page-dot svg .progress-circle {
+    stroke-dasharray: 277;
+    stroke-dashoffset: 277;
+}
+
+.banner-homepage-carousel .flickity-page-dot.is-selected .progress-circle {
+    stroke-dashoffset: 0;
+}
+
+.banner-homepage-carousel .flickity-page-dot:not(.is-selected) .progress-circle {
+    transition-delay: 0s !important;
+    transition-duration: 0s !important;
+}
+
+.banner-homepage-carousel .flickity-page-dot:not(.is-selected) svg .background-circle {
+    opacity: 0;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .carousel-content-overlay {
+        /* Position the text overlay at the center of the carousel cell */
+        width: 80vw;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+        text-align: left;
+        color: #fff;
+    }
+
+    .carousel-content-overlay div {
+        font-size: 16px;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        margin-bottom: 16px;
+    }
+
+    .carousel-content-overlay h2 {
+        /* Style the text as desired */
+        font-size: 35px;
+        line-height: 1.2;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        max-width: 50%;
+        margin-bottom: 32px;
+    }
+
+    .carousel-content-overlay a {
+        display: inline-block;
+        min-width: 160px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .carousel-content-overlay {
+        /* Position the text overlay at the center of the carousel cell */
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: left;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .carousel-content-overlay div {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .carousel-content-overlay h2 {
+        /* Style the text as desired */
+        font-size: 28px;
+        line-height: 1.2;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        margin-bottom: 24px;
+    }
+
+    .carousel-content-overlay a {
+        display: inline-block;
+        min-width: 80px;
+        text-align: center;
+    }
+}
+     
