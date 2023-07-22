@@ -43,6 +43,7 @@ get_header();
             </div>
         </section>
     </div>
+    <h1>Hello</h1>
 
     <?php
     get_footer();
