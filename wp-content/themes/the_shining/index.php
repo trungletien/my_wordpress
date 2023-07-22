@@ -12,9 +12,9 @@ get_header();
                     <circle transform="rotate(-90 40 40)" class="progress-circle" cx="40" cy="40" r="36" fill="transparent" stroke="white" stroke-width="8" />
                 </svg>
             </div>
-            <div class="banner-homepage-carousel w-screen height-50vh lg:h-screen">
+            <div class="banner-homepage-carousel w-screen">
                 <div class="carousel-cell relative">
-                    <img class="w-screen height-50vh lg:h-screen object-cover" src="<?php echo  get_template_directory_uri();?>/assets/images/banner1.jpg" alt="">
+                    <img class="w-screen height-50vh lg:h-screen object-cover" src="https://letientrung.com/wp-content/uploads/2023/07/banner3-scaled.jpg" alt="">
                     <div class="carousel-content-overlay">
                         <div>Collection</div>
                         <h2>Placerat orci nulla pellentesque dignissim enim sit amet.</h2>
@@ -23,7 +23,7 @@ get_header();
                     </div>
                 </div>
                 <div class="carousel-cell">
-                    <img class="w-screen height-50vh lg:h-screen object-cover" src="<?php echo  get_template_directory_uri();?>/assets/images/banner2.jpg" alt="">
+                    <img class="w-screen height-50vh lg:h-screen object-cover" src="https://letientrung.com/wp-content/uploads/2023/07/banner2-scaled.jpg" alt="">
                     <div class="carousel-content-overlay">
                         <div>Collection</div>
                         <h2>Placerat orci nulla pellentesque dignissim enim sit amet.</h2>
@@ -32,7 +32,7 @@ get_header();
                     </div>
                 </div>
                 <div class="carousel-cell">
-                    <img class="w-screen height-50vh lg:h-screen object-cover" src="<?php echo  get_template_directory_uri();?>/assets/images/banner3.jpg" alt="">
+                    <img class="w-screen height-50vh lg:h-screen object-cover" src="https://letientrung.com/wp-content/uploads/2023/07/banner1-scaled.jpg" alt="">
                     <div class="carousel-content-overlay">
                         <div>Collection</div>
                         <h2>Placerat orci nulla pellentesque dignissim enim sit amet.</h2>
