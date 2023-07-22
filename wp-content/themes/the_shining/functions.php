@@ -6,8 +6,8 @@ function the_shining_scripts()
 {
     // Those files is at the header in the "template" folder
     wp_enqueue_style('mainCss', get_template_directory_uri() . '/assets/css/all.css');
-    wp_enqueue_style('tailwindCss', get_template_directory_uri() . '/assets/css/tailwind.css');
     wp_enqueue_style('flickity-css', get_template_directory_uri() . '/node_modules/flickity/dist/flickity.min.css');
+    wp_enqueue_style('normalize-css', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
     // Those files is at the footer in the "template" folder
     wp_enqueue_script('jquery-js', get_template_directory_uri() . '/node_modules/jquery/dist/jquery.min.js', [], '', true);

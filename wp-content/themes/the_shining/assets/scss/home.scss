@@ -1,0 +1,153 @@
+.homepage-carousel {
+    width: 100%;
+
+    img {
+        filter: brightness(0.63);
+    }
+
+    .flickity-page-dots {
+        bottom: 4vh;
+    }
+
+    .flickity-page-dot {
+        background: white;
+        position: relative;
+        overflow: unset;
+        width: 8px;
+        height: 8px;
+        margin: 0 12px;
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &.is-selected {
+            background: white;
+
+            .progress-circle {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        &:not(.is-selected) {
+            background: white;
+
+            .progress-circle {
+                transition-delay: 0s !important;
+                transition-duration: 0s !important;
+            }
+
+            svg {
+                .background-circle {
+                    opacity: 0;
+                }
+            }
+        }
+
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .progress-circle {
+                stroke-dasharray: 277;
+                stroke-dashoffset: 277;
+            }
+        }
+    }
+
+    &_button {
+        &:hover {
+            background-color: white;
+            color: black;
+            border-color: transparent;
+        }
+
+        background-color: transparent;
+        color: white;
+        padding: 8px 12px;
+        border: 1px solid white;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+
+    &_image {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    &_content {
+        /* Position the text overlay at the center of the carousel cell */
+        width: 80vw;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -25%);
+        text-align: left;
+        color: #fff;
+
+        div {
+            font-size: 16px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            /* Style the text as desired */
+            font-size: 35px;
+            line-height: 1.2;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            max-width: 50%;
+            margin-bottom: 32px;
+        }
+
+        a {
+            display: inline-block;
+            min-width: 160px;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .homepage-carousel {
+        &_image {
+            height: 50vh;
+        }
+
+        &_content {
+            /* Position the text overlay at the center of the carousel cell */
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            text-align: left;
+            color: #fff;
+            padding: 20px;
+
+            div {
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            h2 {
+                /* Style the text as desired */
+                max-width: unset;
+                font-size: 28px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+                margin-bottom: 24px;
+            }
+
+            a {
+                min-width: 80px;
+            }
+        }
+
+    }
+}

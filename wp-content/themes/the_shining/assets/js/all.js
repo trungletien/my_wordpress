@@ -1,6 +1,6 @@
 let homepage_time_scroll = 3000;
 $(document).ready(function () {
-    $('.banner-homepage-carousel').flickity({
+    $('.homepage-carousel').flickity({
         // options
         cellAlign: 'center',
         contain: true,
@@ -13,11 +13,11 @@ $(document).ready(function () {
         on: {
             ready: function () {
                 let svg = $("#circle-svg").find("svg");
-                jQuery(".banner-homepage-carousel").find(".flickity-page-dot").append(svg);
-                jQuery(".banner-homepage-carousel").find(".flickity-page-dot svg .progress-circle").css({ transition: "stroke-dashoffset " + (homepage_time_scroll/1000) + "s linear" });
-                jQuery(jQuery(".banner-homepage-carousel .flickity-page-dot")[0]).removeClass('is-selected')
+                jQuery(".homepage-carousel").find(".flickity-page-dot").append(svg);
+                jQuery(".homepage-carousel").find(".flickity-page-dot svg .progress-circle").css({ transition: "stroke-dashoffset " + (homepage_time_scroll/1000) + "s linear" });
+                jQuery(jQuery(".homepage-carousel .flickity-page-dot")[0]).removeClass('is-selected')
                 setTimeout(function () {
-                    jQuery(jQuery(".banner-homepage-carousel .flickity-page-dot")[0]).addClass('is-selected')
+                    jQuery(jQuery(".homepage-carousel .flickity-page-dot")[0]).addClass('is-selected')
                 }, 10);
             },
             // To avoid slide show will be stopped working
@@ -33,7 +33,7 @@ $(document).ready(function () {
         }
     });
 
-    $('.banner-homepage-carousel .flickity-page-dot svg .progress-circle').on('click', function () {
+    $('.homepage-carousel .flickity-page-dot svg .progress-circle').on('click', function () {
         $(this).closest('button').click();
     })
 });

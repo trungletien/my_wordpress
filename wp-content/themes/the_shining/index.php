@@ -12,39 +12,38 @@ get_header();
                     <circle transform="rotate(-90 40 40)" class="progress-circle" cx="40" cy="40" r="36" fill="transparent" stroke="white" stroke-width="8" />
                 </svg>
             </div>
-            <div class="banner-homepage-carousel w-screen">
-                <div class="carousel-cell relative">
-                    <img class="w-screen height-50vh lg:h-screen object-cover" src="https://letientrung.com/wp-content/uploads/2023/07/banner3-scaled.jpg" alt="">
-                    <div class="carousel-content-overlay">
+            <div class="homepage-carousel">
+                <div class="homepage-carousel_item">
+                    <img class="homepage-carousel_image" src="https://letientrung.com/wp-content/uploads/2023/07/banner3-scaled.jpg" alt="">
+                    <div class="homepage-carousel_content">
                         <div>Collection</div>
                         <h2>Placerat orci nulla pellentesque dignissim enim sit amet.</h2>
-                        <a class="bg-transparent hover:bg-white text-white-700 font-semibold hover:text-black py-2 px-4 border border-white-500 hover:border-transparent rounded">
+                        <a class="homepage-carousel_button">
                             Shop now </a>
                     </div>
                 </div>
-                <div class="carousel-cell">
-                    <img class="w-screen height-50vh lg:h-screen object-cover" src="https://letientrung.com/wp-content/uploads/2023/07/banner2-scaled.jpg" alt="">
-                    <div class="carousel-content-overlay">
+                <div class="homepage-carousel_item">
+                    <img class="homepage-carousel_image" src="https://letientrung.com/wp-content/uploads/2023/07/banner2-scaled.jpg" alt="">
+                    <div class="homepage-carousel_content">
                         <div>Collection</div>
                         <h2>Placerat orci nulla pellentesque dignissim enim sit amet.</h2>
-                        <a class="bg-transparent hover:bg-white-900 text-white-700 font-semibold hover:text-black py-2 px-4 border border-white-500 hover:border-transparent rounded">
+                        <a class="homepage-carousel_button">
                             Shop now </a>
                     </div>
                 </div>
-                <div class="carousel-cell">
-                    <img class="w-screen height-50vh lg:h-screen object-cover" src="https://letientrung.com/wp-content/uploads/2023/07/banner1-scaled.jpg" alt="">
-                    <div class="carousel-content-overlay">
+                <div class="homepage-carousel_item">
+                    <img class="homepage-carousel_image" src="https://letientrung.com/wp-content/uploads/2023/07/banner1-scaled.jpg" alt="">
+                    <div class="homepage-carousel_content">
                         <div>Collection</div>
                         <h2>Placerat orci nulla pellentesque dignissim enim sit amet.</h2>
-                        <a class="bg-transparent hover:bg-white text-white-700 font-semibold hover:text-black py-2 px-4 border border-white-500 hover:border-transparent rounded">
+                        <a class="homepage-carousel_button">
                             Shop now </a>
                     </div>
                 </div>
             </div>
         </section>
+        <h1>Hello</h1>
     </div>
-    <h1>Hello</h1>
-
     <?php
     get_footer();
     ?>
