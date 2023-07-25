@@ -51,6 +51,8 @@ function homepage_block() {
             // jQuery(element).find('.flickity-slider').css('transform', 'translateX(0%)')
         })
 
+        $('.homepage-carousel').flickity('resize');
+
         $('.homepage-carousel .flickity-page-dot svg .progress-circle').on('click', function () {
             $(this).closest('button').click();
         })
