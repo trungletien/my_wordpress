@@ -1,0 +1,11 @@
+.block-editor__container .block-editor-block-list__block[data-type^="acf"] {
+    max-width: unset;
+    margin: -8px;
+}
+.acf-block-component.acf-block-panel {
+    padding: 16px;
+}
+
+.interface-complementary-area.edit-post-sidebar {
+    width: 523px;
+}
